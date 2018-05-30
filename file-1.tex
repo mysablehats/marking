@@ -1,0 +1,151 @@
+%<*am>
+\section{Assessment methodology:}
+
+To allow consistency in marking, all submissions have been marked by Frederico Belmonte Klein and reviewed by Dr Maria Papadaki, using the following methodology:\\
+\small
+1. The .mas file was initially loaded onto the MARIE code editor and assembled to produce the .mex executable file. The .mex file was then loaded onto the MARIE simulator for further testing. After each calculation, the file was reloaded to enable resetting of variables and register values (variable clean-up is not necessary). If an error occurred, the simulator was reset and the .mex file reloaded so that testing could continue with a clean environment.\\
+
+2. If present, the routine to calculate the functionality was examined against the following automated tests (see subsections below) using a batch marie-simulator\footnote[1]{Available at \url{https://github.com/mysablehats/marie-sim}} for positive integer division routine (runtime limited to 10E5 operations) and for primality test (runtime limited to 10E6 operations). If an unexpected result was found, such input was tested also on the java Marie Simulator.\\
+
+If incorrect results were produced, then further testing commenced as to understand how the algorithm works. At the same time, the assembly code .mas file was reviewed to check the student's understanding of the problem, the range of values it can work with, the use of subroutines with JNS and JumpI instructions, as well as the subroutine code itself. 
+\normalsize
+\subsection{Division}
+Normal division expected operation should work for the following values can be seen in the table below:
+%.\ref{tab:div}.
+
+
+
+%</am>
+
+%<*diver>
+\subsection{Division: error handling}
+It was not a part of the assignment to divide negative numbers, however, it is expected that your program identifies wrong input and handle them without giving wrong results or worse, entering infinite loops. The expected results and outputs of your algorithm can be seen in the table below:
+%.\ref{tab:diverr}.
+%</diver>
+
+
+%<*assespri>
+\subsection{Prime numbers}
+The test for primality was done for the numbers 1..7 and the randomly chosen not prime large odd numbers (201 and 649) and large primes (89 and 577) as can be seen in the table below:
+%.\ref{tab:diverr}.
+
+%</assespri>
+
+%<*assesprierr>
+\subsection{Prime numbers: error handling}
+The test for primality was done for the numbers on the limit range of the int16 input (-1, 0 and 32767 = 7X31X151 ) to check for lower and upper bounds and using and the randomly chosen not prime large odd numbers (899 = 29X31 and 4819 = 61X79) and large primes (983 and 4817). For this test the maximum number of operations was increased to 10E6. Expected results and results of the presented algorithm can be seen in table below:
+
+%.\ref{tab:diverr}.
+
+%</assesprierr>
+
+%<*assesmetcrit>
+\section{Assessment Criteria:}
+
+\subsection{\small Accuracy of Results}
+\small
+Does the. mas file compile and run on the MarieSim environment? Does the code produce accurate and expected results according to the documentation and the range of values? For a basic functionality, mostly positive small numbers will be considered. For more elaborate work, limit values and whether the functions can handle negative numbers (division: error handling) without outputting incorrect results will be considered. 
+
+\subsection{\small Functionality and Efficiency}
+Does the code contain all requested functionality? Can it detect and deal with user errors and unexpected user input (i.e. input of negative numbers, or numbers larger than 100)? Does the algorithm implement efficient computations? The main points will be awarded on this topic if the user has thought of error handling, range checking and overflow handling. Finally, structure and correct use of subroutines (JNS and JUMPI) will be considered and necessary for awarding distinction grades and incorrect syntax (such as INPUT N, OUTPUT N or having an operation in the same line that a routine label is accessed by JNS – that will not ever run since it gets overwritten) were considered as preventing the group to get a distinction mark.  
+
+\subsection{\small Documentation and commenting (points are additive)}
+Documentation should be included as comments in the .mas file to specify the intended execution of the code. This is particularly important in the case of errors and incorrect results. Also, the documentation should specify the range of values the programme can work with. Additionally, the documentation should mention what each part of the code (main code or subroutine) is doing. 
+\normalsize
+%</assesmetcrit>
+
+%<*comments>
+%<*cgavg>
+Your group submitted a version of the division algorithm and testing for primality in MARIE assembly that does compile and runs with appropriate answers for most small numbers, successfully achieving the most of the desired results with the desired level of functionality on the parts that were submitted.  \\
+
+\\
+%</cgavg>
+%%%ACCURACY:
+%<*caa1>
+For small positive numbers, the division works fine, and so does the primality test for numbers 0, 1 and 3 to 7, however division of 0 fails to give the correct result and number 2 is incorrectly labeled as not a prime.
+\\
+%</caa1>
+%%%ELABORATE ACCURACY:
+%<*cae1>
+The algorithm does not deal with unexpected input, not seeming to implement any sort of upper or lower bound check. Additionally, for primality test, large odd numbers seem to be always deemed prime even when it is not the case.\\
+
+\\
+%</cae1>
+%%%FUNCTIONALITY, RANGE:
+%<*cfn>
+Your algorithm has no parameter range checking for lower bounds or upper bounds.
+%</cfn>
+%<*cfy>
+Your algorithm has parameter range checking for lower and upper bounds.
+%</cfy>
+%<*cfs>
+The structure of your submission was in the moulds as directed by the assignment and all information necessary to correct it was in the .mas file – not needing additional files for explaining your work.
+%</cfs>
+%<*cf>
+ JNS and JUMPI are used, to form proper stand-alone subroutines and the subroutine division is used on the implementation of your primality test, which was desirable.
+%</cf>
+%<*cfe>
+ The algorithm shows signs that efficiency was taken into account.
+%</cfe>
+%<*cfie>
+ The algorithm does not show any functionality to implement efficient computation.
+%</cfie>
+
+
+%%%DOCUMENTATION:
+%<*cd>
+\\
+Documentation, as comments, is present within the .mas file. The range in which your algorithm work is well commented and the documentation is quite good, helping understand what the algorithm is doing.
+%</cd>
+
+%<*cdn>
+\\
+Documentation, as comments, is present within the .mas file. The range in which your algorithm work is however \textbf{not} commented. But the comments are good, describing each subroutine's general behaviour and helping understand what the algorithm is doing.
+%</cdn>
+
+%%%RECOMMENDATIONS:
+%<*crH>
+\\
+As a recommendation for increasing marks for future work, we would recommend:
+%</crH>
+%<*cra>
+Making all parts of the assignment testable (the multiplication subroutine in this case) – if you don't want it to ask for inputs all the time, you can comment the input and the output out, but put instructions on what to change to test it
+%</cra>
+%<*crb>
+More systematic error escaping with the same answer for all invalid input: considering your algorithm only deals with positive numbers, you could have chosen a negative number as error code
+%</crb>
+%<*crc>
+Implement upper bound range check
+%</crc>
+%<*crd>
+Implement overflow/underflow check – important if you want to also be able to multiply negative numbers
+%</crd>
+%<*cre>
+Trying to extend the range in which your algorithm gives adequate results
+%</cre>
+%<*crf>
+Writing more general functionality details for subroutines
+%</crf>
+%<*crg>
+Check documentation for spelling errors
+%</crg>
+%<*crh>
+Write the inputs and outputs of each subroutine in your documentation
+%</crh>
+%<*cri>
+Write the range in which your algorithm works in your documentation
+%</cri>
+%<*crj>
+Test your algorithm more before submitting to make sure it gives accurate results within all its range (2 is a prime)
+%</crj>
+%<*crk>
+Consider implementing efficient algorithms. Faster code can be run more times, which eases testing, increases usability and flexibility, as well as facilitates building more complex programs based on your code
+%</crk>
+
+
+%%%OVERALL: 
+%<*co>
+\\
+This is overall a pretty good submission, that however has some small mistakes in terms of functionality and lacks the features desired for it to deserve better grade. 
+%</co>
+%</comments>

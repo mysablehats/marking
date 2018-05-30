@@ -1,0 +1,632 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6700 64-bit) (preloaded format=pdflatex 2018.5.22)  30 MAY 2018 13:54
+entering extended mode
+**./M18-1.tex
+(M18-1.tex
+LaTeX2e <2018-04-01> patch level 4
+Babel <3.20> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
+\col@sep=\dimen103
+\ar@mcellbox=\box26
+\extrarowheight=\dimen104
+\NC@list=\toks16
+\extratabsurround=\skip43
+\backup@length=\skip44
+\ar@cellbox=\box27
+)
+\TX@col@width=\dimen105
+\TX@old@table=\dimen106
+\TX@old@col=\dimen107
+\TX@target=\dimen108
+\TX@delta=\dimen109
+\TX@cols=\count88
+\TX@ftn=\toks17
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\mdwtools\footnote.sty"
+Package: footnote 1997/01/28 1.13 Save footnotes around boxes
+\fn@notes=\box28
+\fn@width=\dimen110
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\verbatimbox\verbatimbox.sty"
+Package: verbatimbox 2014/03/12 v3.13 Routines for placing verbatim text into b
+oxes, useful in places where the verbatim environment is inaccessible. Secondar
+ily, for adding vertical buffer around an object.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks18
+\verbatim@line=\toks19
+\verbatim@in@stream=\read1
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\readarray\readarray.sty"
+Package: readarray 2016/11/07\ 2.0\ Routines for inputting 2D and 3D array data
+ and recalling it on an element-by-element basis.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listofitems\listofitems.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\listofitems\listofitems.tex"
+\loi_nestcnt=\count89
+)
+Package: listofitems 2018/03/13 v1.53 Grab items in lists using user-specified 
+sep char (CT)
+)
+\c@@index=\count90
+\c@@plane=\count91
+\c@@row=\count92
+\c@@col=\count93
+\c@use@args=\count94
+\c@@record=\count95
+\c@arg@index=\count96
+\c@break@count=\count97
+\c@index@count=\count98
+\c@loop@count=\count99
+\Arg@toks=\toks20
+\@arrayident@toks=\toks21
+\rdar@file=\read2
+
+readarray: bounds checking OFF
+)
+\savedverbbox=\box29
+\c@VerbboxLineNo=\count100
+\boxtopsep=\dimen111
+\boxbottomsep=\dimen112
+\ps@tempdima=\dimen113
+\ps@tempboxa=\box30
+\boxtop@sep=\skip45
+\boxbottom@sep=\skip46
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\catchfilebetweentags\catchfilebetweenta
+gs.sty"
+Package: catchfilebetweentags 2011/02/19 v1.1 - Catch file between tags (FC)
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\etex-pkg\etex.sty"
+Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
+\et@xins=\count101
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count102
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\catchfile.sty"
+Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))
+\CatchFBT@tok=\toks256
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\opensans\opensans.sty"
+Package: opensans 2011/11/11 Opensans
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\slantsc\slantsc.sty"
+Package: slantsc 2012/01/01 v2.11 Provide Slanted an Italic Small Caps
+LaTeX Info: Redefining \upshape on input line 35.
+LaTeX Info: Redefining \slshape on input line 45.
+LaTeX Info: Redefining \itshape on input line 55.
+LaTeX Info: Redefining \scshape on input line 65.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count103
+\float@exts=\toks23
+\float@box=\box31
+\@float@everytoks=\toks24
+\@floatcapt=\box32
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count104
+\Gm@cntv=\count105
+\c@Gm@tempcnt=\count106
+\Gm@bindingoffset=\dimen114
+\Gm@wd@mp=\dimen115
+\Gm@odd@mp=\dimen116
+\Gm@even@mp=\dimen117
+\Gm@layoutwidth=\dimen118
+\Gm@layoutheight=\dimen119
+\Gm@layouthoffset=\dimen120
+\Gm@layoutvoffset=\dimen121
+\Gm@dimlist=\toks25
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen122
+\Gin@req@width=\dimen123
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen124
+\lightrulewidth=\dimen125
+\cmidrulewidth=\dimen126
+\belowrulesep=\dimen127
+\belowbottomsep=\dimen128
+\aboverulesep=\dimen129
+\abovetopsep=\dimen130
+\cmidrulesep=\dimen131
+\cmidrulekern=\dimen132
+\defaultaddspace=\dimen133
+\@cmidla=\count107
+\@cmidlb=\count108
+\@aboverulesep=\dimen134
+\@belowrulesep=\dimen135
+\@thisruleclass=\count109
+\@lastruleclass=\count110
+\@thisrulewidth=\dimen136
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\paralist\paralist.sty"
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip47
+\plpartopsep=\skip48
+\plitemsep=\skip49
+\plparsep=\skip50
+\pl@lab=\toks26
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen137
+\captionmargin@=\dimen138
+\captionwidth=\dimen139
+\caption@tempdima=\dimen140
+\caption@indent=\dimen141
+\caption@parindent=\dimen142
+\caption@hangindent=\dimen143
+)
+\c@ContinuedFloat=\count111
+Package caption Info: float package is loaded.
+)
+\c@KVtest=\count112
+\sf@farskip=\skip51
+\sf@captopadj=\dimen144
+\sf@capskip=\skip52
+\sf@nearskip=\skip53
+\c@subfigure=\count113
+\c@subfigure@save=\count114
+\c@lofdepth=\count115
+\c@subtable=\count116
+\c@subtable@save=\count117
+\c@lotdepth=\count118
+\sf@top=\skip54
+\sf@bottom=\skip55
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip56
+\f@nch@O@elh=\skip57
+\f@nch@O@erh=\skip58
+\f@nch@O@olh=\skip59
+\f@nch@O@orh=\skip60
+\f@nch@O@elf=\skip61
+\f@nch@O@erf=\skip62
+\f@nch@O@olf=\skip63
+\f@nch@O@orf=\skip64
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\sectsty\sectsty.sty"
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty"
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has section divisions on input line 50.
+
+
+Package tocbibind Note: Using section or other style headings.
+
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tocloft\tocloft.sty"
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 51.
+\cftparskip=\skip65
+\cftbeforetoctitleskip=\skip66
+\cftaftertoctitleskip=\skip67
+\cftbeforepartskip=\skip68
+\cftpartnumwidth=\skip69
+\cftpartindent=\skip70
+\cftbeforesecskip=\skip71
+\cftsecindent=\skip72
+\cftsecnumwidth=\skip73
+\cftbeforesubsecskip=\skip74
+\cftsubsecindent=\skip75
+\cftsubsecnumwidth=\skip76
+\cftbeforesubsubsecskip=\skip77
+\cftsubsubsecindent=\skip78
+\cftsubsubsecnumwidth=\skip79
+\cftbeforeparaskip=\skip80
+\cftparaindent=\skip81
+\cftparanumwidth=\skip82
+\cftbeforesubparaskip=\skip83
+\cftsubparaindent=\skip84
+\cftsubparanumwidth=\skip85
+\cftbeforeloftitleskip=\skip86
+\cftafterloftitleskip=\skip87
+\cftbeforefigskip=\skip88
+\cftfigindent=\skip89
+\cftfignumwidth=\skip90
+\cftbeforelottitleskip=\skip91
+\cftafterlottitleskip=\skip92
+\cftbeforetabskip=\skip93
+\cfttabindent=\skip94
+\cfttabnumwidth=\skip95
+\cftbeforesubfigskip=\skip96
+\cftsubfigindent=\skip97
+\cftsubfignumwidth=\skip98
+\cftbeforesubtabskip=\skip99
+\cftsubtabindent=\skip100
+\cftsubtabnumwidth=\skip101
+) (M18-1.aux)
+\openout1 = `M18-1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Try loading font information for T1+fosj on input line 86.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\opensans\t1fosj.fd"
+File: t1fosj.fd 2011/11/11 Fontinst v1.927 font definitions for T1/fosj.
+)
+LaTeX Font Info:    Font shape `T1/fosj/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 86.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 759.6886pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=540.60239pt
+* \textheight=759.6886pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-80.81725pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(C:\Users\Frederico\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count119
+\scratchdimen=\dimen145
+\scratchbox=\box33
+\nofMPsegments=\count120
+\nofMParguments=\count121
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count122
+\MPscratchDim=\dimen146
+\MPnumerator=\count123
+\makeMPintoPDFobject=\count124
+\everyMPtoPDFconversion=\toks28
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Font shape `T1/fosj/m/n' will be
+(Font)              scaled to size 16.41594pt on input line 88.
+LaTeX Font Info:    Font shape `T1/fosj/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 88.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 88.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 88.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 88.
+ (file.tex)
+LaTeX Font Info:    Font shape `T1/fosj/m/n' will be
+(Font)              scaled to size 13.67995pt on input line 90.
+LaTeX Font Info:    Font shape `T1/fosj/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/fosj/b/n' tried instead on input line 90.
+LaTeX Font Info:    Font shape `T1/fosj/b/n' will be
+(Font)              scaled to size 13.67995pt on input line 90.
+LaTeX Font Info:    Font shape `T1/fosj/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 90.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 90.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 90.
+LaTeX Font Info:    Font shape `T1/fosj/m/n' will be
+(Font)              scaled to size 6.64998pt on input line 90.
+LaTeX Font Info:    Font shape `T1/fosj/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 90.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 90.
+LaTeX Font Info:    Font shape `T1/fosj/m/n' will be
+(Font)              scaled to size 5.69998pt on input line 90.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 90.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+Overfull \hbox (0.32504pt too wide) in paragraph at lines 90--90
+\T1/fosj/m/n/10.95 been marked by Fred-erico Bel-monte Klein and re-viewed
+ []
+
+
+Overfull \hbox (2.76266pt too wide) in paragraph at lines 90--90
+\T1/fosj/m/n/10 same time, the as-sem-bly code .mas file was re-viewed to check
+
+ []
+
+LaTeX Font Info:    Font shape `T1/fosj/bx/n' in size <12> not available
+(Font)              Font shape `T1/fosj/b/n' tried instead on input line 90.
+LaTeX Font Info:    Font shape `T1/fosj/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 90.
+
+Overfull \hbox (0.86606pt too wide) in paragraph at lines 90--91
+\T1/fosj/m/n/10.95 Normal di-vi-sion ex-pected op-er-a-tion should work for the
+
+ []
+
+(file.tex)
+Overfull \hbox (8.4848pt too wide) in paragraph at lines 111--112
+\T1/fosj/m/n/10.95 neg-a-tive di-vi-sion was at-tempted, the de-ci-sion on whet
+her
+ []
+
+LaTeX Font Info:    Font shape `T1/fosj/m/n' will be
+(Font)              scaled to size 7.59998pt on input line 117.
+(file.tex) (file.tex) (file.tex) [1{C:/Users/Frederico/AppData/Local/MiKTeX/2.9
+/pdftex/config/pdftex.map}
+
+
+
+] (file.tex) (file.tex) (file.tex)
+LaTeX Font Info:    Font shape `T1/fosj/bx/n' in size <10> not available
+(Font)              Font shape `T1/fosj/b/n' tried instead on input line 198.
+LaTeX Font Info:    Font shape `T1/fosj/b/n' will be
+(Font)              scaled to size 9.49997pt on input line 198.
+
+Overfull \hbox (6.09343pt too wide) in paragraph at lines 198--199
+\T1/fosj/m/n/10 mul-ti-ple reg-is-ter in-put and out-put (big-num im-ple-men-ta
+-tions),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--206
+
+ []
+
+(file.tex) (file.tex) (file.tex) (file.tex) (file.tex) (file.tex) (file.tex)
+(file.tex) (file.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 209--228
+
+ []
+
+
+Overfull \hbox (11.41824pt too wide) in paragraph at lines 209--228
+\T1/fosj/m/n/10.95 ACCURACY: For small pos-i-tive num-bers, the di-vi-sion work
+s
+ []
+
+
+Overfull \hbox (6.29543pt too wide) in paragraph at lines 209--228
+\T1/fosj/m/n/10.95 ELABORATE AC-CU-RACY: The al-go-rithm does not deal with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--228
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--228
+
+ []
+
+
+Overfull \hbox (5.5554pt too wide) in paragraph at lines 209--228
+\T1/fosj/m/n/10.95 Documentation, as com-ments, is present within the .mas
+ []
+
+
+Overfull \hbox (0.69342pt too wide) in paragraph at lines 209--228
+\T1/fosj/m/n/10.95 com-mented and the doc-u-men-ta-tion is quite good, help-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--228
+
+ []
+
+[2]
+LaTeX Font Info:    Try loading font information for OMS+fosj on input line 228
+.
+LaTeX Font Info:    No file OMSfosj.fd. on input line 228.
+
+
+LaTeX Font Warning: Font shape `OMS/fosj/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 228.
+
+(file.tex) (file.tex) (file.tex)
+Overfull \hbox (1.26749pt too wide) in paragraph at lines 231--232
+[]\T1/fosj/m/n/10.95 Trying to ex-tend the range in which your al-go-rithm
+ []
+
+(file.tex) (file.tex) (file.tex) (file.tex) (file.tex)
+Overfull \hbox (11.25385pt too wide) in paragraph at lines 236--237
+[]\T1/fosj/m/n/10.95 Test your al-go-rithm more be-fore sub-mit-ting to make
+ []
+
+(file.tex)
+Overfull \hbox (5.50479pt too wide) in paragraph at lines 237--241
+[]\T1/fosj/m/n/10.95 Consider im-ple-ment-ing ef-fi-cient al-go-rithms. Faster
+ []
+
+(file.tex)
+Overfull \hbox (3.53316pt too wide) in paragraph at lines 242--244
+\T1/fosj/m/n/10.95 im-por-tant mis-takes in terms of func-tion-al-ity, since pr
+ime
+ []
+
+[3] (M18-1.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5431 strings out of 492976
+ 82137 string characters out of 3135979
+ 176042 words of memory out of 3000000
+ 9086 multiletter control sequences out of 15000+200000
+ 65828 words of font info for 87 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 44i,17n,43p,1132b,376s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/opensans/opensans-02.enc}{C:/Pro
+gram Files/MiKTeX 2.9/fonts/enc/dvips/opensans/opensans-03.enc} <C:\Users\Frede
+rico\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi450\ectt0800.pk> <
+C:\Users\Frederico\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ectt0900.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/opensans/opensans-01.e
+nc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/opensans/opensans-04.enc}<C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/opensans/OpenSans-Bold.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/opensans/OpenSans-Regular.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on M18-1.pdf (3 pages, 69955 bytes).
+PDF statistics:
+ 86 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
